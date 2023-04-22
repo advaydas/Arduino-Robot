@@ -1,3 +1,21 @@
+/*
+This dancing dino robot was made of a chasis with 2 DC motors
+For the body of the dino robot we had 2 servo motors 
+  Servo motor 1 was used to sweep the head up and down
+  Servo motor 2 was used to sweep the legs forward and backward
+The legs of the dino did not make contact with the ground and moved in the air
+This Arduino code sketch was used to move the 3 motors at the same time
+
+Language+platform: Arduino UNO R3/Arduino IDE
+DC motor driver board; Adafruit DRV8871
+Servo motor: SG90R
+
+Author-Guides: Ambardeep Das, Martin Woudstra
+Students: Advay, Lukas, Dine, Galang, Samay
+Team name: GLADS
+Category: Dancing Robot
+Result: 1st prize!!
+*/ 
 
 #include <Servo.h>
 
